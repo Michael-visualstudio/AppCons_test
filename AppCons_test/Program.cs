@@ -25,6 +25,15 @@ namespace AppCons_test
             else
                 Console.WriteLine(" {0} es mayor", b);
 
+            
+
+            //bucle while
+            int j = 1;
+            while (j <= 10)
+            {
+                Console.WriteLine("{0} Bienvenidos a GIT ", j);
+                j++;
+            }
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
         }
