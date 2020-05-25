@@ -18,6 +18,13 @@ namespace AppCons_test
             a = 10;
             int b = 20;
             Console.WriteLine("la multiplicacion de {0} x {1}", a, b, (a * b));
+
+            //condicionales
+            if (a > b)
+                Console.WriteLine(" {0} es mayor", a);
+            else
+                Console.WriteLine(" {0} es mayor", b);
+
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
         }
