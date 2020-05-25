@@ -34,8 +34,19 @@ namespace AppCons_test
                 Console.WriteLine("{0} Bienvenidos a GIT ", j);
                 j++;
             }
+
+            //bucle for
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("Hola {0}", i);
+            }
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
+            //agregar el bucle for(commit - sincronizar)
+            //agregar bucle foreach (commit - sincronizar)
+            //desde repositorio remoto, buscar como compartir su proyecto
+            //con el docente
+            //kleberposligua@hotmail.com
         }
     }
 }
