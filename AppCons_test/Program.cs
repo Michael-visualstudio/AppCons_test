@@ -40,12 +40,16 @@ namespace AppCons_test
             {
                 Console.WriteLine("Hola {0}", i);
             }
+            
+            //bucle foreach
+            string nombre = "bucleforeach";
+            foreach (char letra in nombre)
+            {
+                Console.WriteLine(" " + letra + " ");
+            }
             Console.WriteLine("Pulse una tecla para continuar...");
             Console.ReadKey();
-            //agregar el bucle for(commit - sincronizar)
-            //agregar bucle foreach (commit - sincronizar)
             //desde repositorio remoto, buscar como compartir su proyecto
-            //con el docente
             //kleberposligua@hotmail.com
         }
     }
